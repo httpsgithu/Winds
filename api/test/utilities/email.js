@@ -6,7 +6,7 @@ import {
 	DummyEmailTransport,
 } from '../../src/utils/email/send';
 
-describe('Email sending', () => {
+describe('Email utility', () => {
 	it('should send password reset email', async () => {
 		const data = {
 			email: 'invalid@email.com',

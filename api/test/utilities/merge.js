@@ -6,9 +6,10 @@ import { mergeFeeds } from '../../src/utils/merge';
 import { loadFixture, dropDBs } from '../utils';
 
 describe('Merge utility', () => {
-	it.skip('should merge two feeds', async () => {
+	it.only('should merge two feeds', async () => {
 		await dropDBs();
 		await loadFixture('initial-data');
+		
 		//TODO: verify we follow and pin stuff from feed B
 		let articleCount = await Article.count({ rss: '5b0ad0baf6f89574a638887a' });
 		let followCount = await Follow.count({ rss: '5b0ad0baf6f89574a638887a' });
