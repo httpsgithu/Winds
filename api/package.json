@@ -58,7 +58,7 @@
 		"ioredis": "^4.19.4",
 		"joi": "^13.7.0",
 		"jsonwebtoken": "^8.5.1",
-		"moment": "^2.26.0",
+		"moment": "^2.29.4",
 		"mongoose": "^5.9.15",
 		"mongoose-autopopulate": "^0.12.2",
 		"mongoose-bcrypt": "^1.8.0",
