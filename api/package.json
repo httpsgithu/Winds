@@ -57,7 +57,7 @@
 		"inflate-auto": "^1.0.0",
 		"ioredis": "^4.19.4",
 		"joi": "^13.7.0",
-		"jsonwebtoken": "^8.5.1",
+		"jsonwebtoken": "^9.0.0",
 		"moment": "^2.26.0",
 		"mongoose": "^5.9.15",
 		"mongoose-autopopulate": "^0.12.2",
